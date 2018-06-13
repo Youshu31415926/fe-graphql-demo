@@ -1,0 +1,47 @@
+{
+  "name": "dataplusTv",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest",
+    "android:build": "cd android && ./gradlew assembleRelease",
+    "android:buildRelease": "node ./scripts/android-deploy.js"
+  },
+  "dependencies": {
+    "apollo-boost": "^0.1.7",
+    "apollo-cache-inmemory": "^1.2.2",
+    "apollo-client": "^2.3.2",
+    "apollo-link": "^1.2.2",
+    "apollo-link-context": "^1.0.8",
+    "apollo-link-error": "^1.0.9",
+    "apollo-link-http": "^1.5.4",
+    "apollo-link-http-common": "^0.2.4",
+    "apollo-link-ws": "^1.0.8",
+    "apollo-upload-client": "^8.0.0",
+    "extract-files": "^3.1.0",
+    "graphql": "^0.13.2",
+    "graphql-ruby-client": "^1.4.0",
+    "graphql-tag": "^2.9.2",
+    "moment": "^2.19.2",
+    "prop-types": "^15.5.10",
+    "ramda": "^0.24.1",
+    "react": "16.3.1",
+    "react-actioncable-provider": "^1.0.3",
+    "react-apollo": "^2.1.4",
+    "react-native": "0.55.4",
+    "react-native-actioncable": "0.0.3",
+    "react-native-image-progress": "^1.0.1",
+    "react-native-progress": "^3.4.0",
+    "react-native-qrcode": "^0.2.6",
+    "react-navigation": "^2.1.0",
+    "subscriptions-transport-ws": "^0.9.9"
+  },
+  "jest": {
+    "preset": "react-native"
+  },
+  "devDependencies": {
+    "shelljs": "^0.7.8",
+    "reactotron-react-native": "^1.14.0"
+  }
+}
